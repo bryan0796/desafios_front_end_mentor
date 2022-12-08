@@ -1,6 +1,5 @@
-ul, li, a {
+a {
   text-decoration: none;
-  list-style: none;
 }
 
 body {
