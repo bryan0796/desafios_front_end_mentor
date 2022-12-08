@@ -61,6 +61,7 @@ header > p {
   padding: 20px;
   border-radius: 5px;
   display: grid;
+  box-shadow: 1px 1px 4px rgb(206, 204, 204);
 }
 
 .supervisor::before {
@@ -140,7 +141,7 @@ img {
   color: hsl(228, 45%, 44%); 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .grid {
     grid-template-columns: 1fr;
   }
