@@ -7,6 +7,18 @@ body {
   background-color: #d5e1ef;
 }
 
+.botao-voltar {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #000648;
+  border-radius: 4px;
+  margin: 30px 60px;
+  padding: 10px 15px;
+  background-image: linear-gradient( to bottom, #1B2CEB, #077cc5, #0F9CF6);
+  box-shadow: 1px 1px 4px rgb(160, 160, 160);
+}
+
 img {
   display: block;
   max-width: 100%;
