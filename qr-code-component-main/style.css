@@ -34,8 +34,7 @@ img {
   border-radius: 20px;
   display: grid;
   gap: 10px;
-  place-content: center;
-  justify-items: center;
+  place-items: center;
 }
 
 p{
