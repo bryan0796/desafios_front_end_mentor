@@ -60,6 +60,9 @@ p {
   background-size: contain;
   display: none;
 }
+.menu-mobile {
+  display: none;
+}
 .header-menu a {
   color: var(--cor-neutro-1);
   font-weight: 400;
@@ -181,19 +184,29 @@ p {
   width: 25ch;
 }
 
-[data-menu='button'] {
-  display: none;
-}
-
 @media (max-width: 500px) {
   body {
     margin: 10px 10px;
+  }
+  .menu-mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .linha {
+    height: 2px;
+    width: 20px;
+    background: black;
+    border-radius: 2px;
   }  
   .container-header {
     display: none;
   }
-  .logo-mobile {
-    
+  .logo-mobile {  
     display: block;
   }
   .noticias {
