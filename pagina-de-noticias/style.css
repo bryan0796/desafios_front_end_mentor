@@ -174,7 +174,7 @@ p {
   width: 25ch;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   body {
     margin: 10px 10px;
   }
