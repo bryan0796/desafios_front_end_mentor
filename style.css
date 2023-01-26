@@ -1,43 +1,127 @@
-ol, a {
-  text-decoration: none;
-  list-style: none;
-}
-
 body {
-  background-color: #040469;
+  background-image: linear-gradient(116.82deg, #94FFD1 0%, #88CBCF 100%);
+  background-attachment: fixed;
 }
 
 h1 {
+  text-transform: uppercase;
   text-align: center;
-  font-family: 'Bebas Neue';
+  font-family: 'Play', sans-serif;
   font-size: 4.6rem;
   letter-spacing: 2px;
-  color: #E57c7a;
+  color: #002729;
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 50px;
-  font-size: 2rem;
-  margin-left: 40px;
-  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 40px;
+  font-size: 1.5rem;
+  margin-left: 130px;
+  color: #002022;
+  width: 665px;
+  line-height: 31px;
 }
 
  p > a {
   display: inline;
-  color: #8e9de9;
-  font-size: 2rem;
+  color: #9e7cb2;
+  font-size: 1.5rem;
+  text-decoration: underline;
 }
 
-a {
-  max-width: max-content;
-  display:block;
-  margin-top: 60px;
-  color:#f9b7b6;
-  font-size: 1.5rem;
+ol a {
+  display: inline-block;
+  color:#9e7cb2;
+  font-size: 1.4rem;
+  text-decoration: none;
 }
+
+li {
+  margin-left: 130px;
+  padding: 20px;
+}
+
+.html {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: 'Play';
+  color: #ca4814;
+  padding: 4px;
+  margin-left: 10px;
+}
+
+.css {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: 'Play';
+  color: rgb(14, 115, 165);
+  padding: 4px;
+}
+
+.javascript {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: 'Play';
+  color: rgb(243, 247, 46);
+  padding: 4px;
+}
+
 
 .projetos a:hover {
-  color: #E57c7a;
+  color: #bc9cce;
   font-size: 1.6rem;
+}
+
+@media(max-width: 500px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  p {
+    font-size: 0.87rem;
+    width: 40ch;
+    margin: 0 auto;
+  }
+  p > a {
+    display: inline;
+    color: #9e7cb2;
+    font-size: 0.87rem;
+    text-decoration: underline;
+  }
+  ol a {
+    display: inline-block;
+    color:#9e7cb2;
+    font-size: 0.87rem;
+    text-decoration: none;
+  }
+  
+  li {
+    margin: 0 0 0 20px;
+    padding: 10px;
+  }
+  .html {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-family: 'Play';
+    color: #ca4814;
+    padding: 2px;
+    margin-left: 8px;
+  }
+  .css {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-family: 'Play';
+    color: rgb(14, 115, 165);
+    padding: 2px;
+  }
+  .javascript {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-family: 'Play';
+    color: rgb(243, 247, 46);
+    padding: 2px;
+  }
+  .projetos a:hover {
+    color: #bc9cce;
+    font-size: 1rem;
+  }
 }
