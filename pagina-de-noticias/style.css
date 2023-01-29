@@ -185,8 +185,8 @@ p {
   body {
     margin: 10px 10px;
   }
-  .container-header {
-    margin-bottom: 12px;
+  .container-header ul  {
+    display: none;
   }
 
   .menu-hamburger {
