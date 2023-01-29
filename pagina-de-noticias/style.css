@@ -177,6 +177,9 @@ p {
 .container-menu-mobile {
   display: none;
 }
+.nav-mobile {
+  display: none;
+}
 
 @media (max-width: 500px) {
   body {
@@ -255,7 +258,7 @@ p {
   }
   .img-mobile {
     display: block;
-  
+    max-width: 100%;
     height: auto;
   }
   .noticia-principal {
